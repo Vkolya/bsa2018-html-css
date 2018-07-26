@@ -154,6 +154,7 @@ MAIN CONTENT
     max-width: 250px;
 }
 .post .post-title {
+    font-size: 16px;
     display: inline-block;
 }
 .post-short-desc {
