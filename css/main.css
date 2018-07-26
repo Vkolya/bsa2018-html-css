@@ -44,6 +44,7 @@ body {
 .footer-section {
     border-top: 1px solid #A6B1EB;
     font-size: 12px;
+    padding: 10px;
 }
 .site-wrapper {
     display: grid;
