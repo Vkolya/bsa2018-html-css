@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BSA HTML/CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/menu_hamburger.css">
+        <link rel="stylesheet" href="css/subscribe-form.css">
+    </head>
+    <body>
+        <div class="site-wrapper">
+            <header class="head-section">
+                <div class="header-icons">
+                    <ul class="social-icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <a href="#main-menu"
+                   role="button"
+                   id="main-menu-toggle"
+                   class="menu-toggle"
+                   aria-expanded="false"
+                   aria-controls="main-menu"
+                   aria-label="Open main menu">
+
+                    <span class="sr-only">Open main menu</span>
+                    <span class="fa fa-bars" aria-hidden="true"></span>
+                </a>
+                <img src="images/habr.jpg"/>
+                <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
+                    <a href="#main-menu-toggle"
+                       role="button"
+                       id="main-menu-close"
+                       class="menu-close"
+                       aria-expanded="false"
+                       aria-controls="main-menu"
+                       aria-label="Close main menu">
+
+                        <span class="sr-only">Close main menu</span>
+                        <span class="fa fa-close" aria-hidden="true"></span>
+                    </a>
+                    <ul class="nav-links">
+                        <li><a href="#">Habr</a></li>
+                        <li><a href="#">Toster</a></li>
+                        <li><a href="#">Geektimes</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main id="content" class="main-content">
+                <div class="post">
+                    <img src="images/windows_github_post.png"/>
+                    <span class="post-title">GitHub превращается превращается GitHub… в элегантный Windows 95</span>
+                    <div class="posted-by-info-block">
+                        <span class="posted-by">posted by</span>
+                        <span class="post-author">Milfgard</span>
+                        <span class="post-public-time">5 июля в 15:54</span>
+                    </div>
+                    <div class="comments-and-rate-block">
+                        <i class="fa fa-comments" aria-hidden="true"></i> 5
+                        <i class="fa fa-star" aria-hidden="true"></i> 4
+                    </div>
+                    <span class="post-short-desc">
+                        В Твиттере какое-то время назад запостили шутку в честь приобретения Майкрософтом ГитХаба — страницу сайта, 
+                        перестилизованную в стиле Windows 98. Я решил, что шутка слишком хороша, чтобы оставаться шуткой.
+                    </span>
+                </div>
+                <div class="post">
+                    <img src="images/interview-post.jpeg"/>
+                    <span class="post-title">Антисобеседования</span>
+                    <div class="posted-by-info-block">
+                        <span class="posted-by">posted by</span>
+                        <span class="post-author">Milfgard</span>
+                        <span class="post-public-time">17 июля в 16:05</span>
+                    </div>
+                    <div class="comments-and-rate-block">
+                        <i class="fa fa-comments" aria-hidden="true"></i> 1
+                        <i class="fa fa-star" aria-hidden="true"></i> 3
+                    </div>
+                    <span class="post-short-desc">
+                        Я побывал на многих плохих собеседованиях, и в качестве кандидата и в качестве ведущего, и в качестве наблюдателя. 
+                        В результате сформулировался крайне субъективный набор заметок о том, как стоит и как не стоит проводить собеседование разработчиков. 
+                    </span>
+                </div>
+                <div class="post">
+                    <img src="images/telegram.png"/>
+                    <span class="post-title">Как я переехал в Израиль после блокировки Telegram</span>
+                    <div class="posted-by-info-block">
+                        <span class="posted-by">posted by</span>
+                        <span class="post-author">Milfgard</span>
+                        <span class="post-public-time">23 июня в 09:52</span>
+                    </div>
+                    <div class="comments-and-rate-block">
+                        <i class="fa fa-comments" aria-hidden="true"></i> 8
+                        <i class="fa fa-star" aria-hidden="true"></i> 5
+                    </div>
+                    <span class="post-short-desc">
+                        Все помнят бурление, когда вышло постановление о блокировке Telegram?
+                        Как много было вопящих и брызгающих слюной комментов о том,
+                        что поросенок Петр всегда был прав и вообще пора собирать чемодан и искать работу за рубежом?
+                    </span>
+                </div>
+                <div class="post">
+                    <img src="images/dirizabl.jpeg"/>
+                    <span class="post-title">Пара слов про дирижабли</span>
+                    <div class="posted-by-info-block">
+                        <span class="posted-by">posted by</span>
+                        <span class="post-author">Milfgard</span>
+                        <span class="post-public-time">28 июня в 09:52</span>
+                    </div>
+                    <div class="comments-and-rate-block">
+                        <i class="fa fa-comments" aria-hidden="true"></i> 8
+                        <i class="fa fa-star" aria-hidden="true"></i> 5
+                    </div>
+                    <span class="post-short-desc">
+                        За дирижаблями, возможно, снова будущее. Они как дроны, только могут быть огромными и висеть в воздухе неделями. 
+                        Я как-то обещал рассказать про советскую стратегическую концепцию о заправке дизельных подлодок с помощью дирижаблей. 
+                        Дирижабль должен был стать мобильной базой и сразу разведпунктом.
+                    </span>
+                </div>
+
+
+
+            </main>
+
+            <aside class="sidebar">
+                <div class="author-info">
+                    <img src="images/users/author_img.jpg"/>
+                    <span class="author-name">Сергей Абдульманов</span>
+                    <div class="author-short-info">
+                        Давным-давно поступил на математика-системного программиста и дико радовался. 
+                        Через год понял, что читаю семинары для своих же. Занялся спецсвязью. 
+                    </div>
+                </div>
+                <ul class="social-icon">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                </ul>
+                <div class="subscribe-form">
+                    <form>
+                        <label for="subscribe-form-username">Name</label>
+                        <input type="text" class="subscribe-form-username" id="subscribe-form-username">
+                        <label for="subscribe-form-email">Email</label>
+                        <input type="email" class="subscribe-form-password" id="subscribe-form-password">
+                        <button type="submit" class="subscribe-form-button">Subscribe</button>
+                    </form>
+                </div>
+                <div class="search">
+                    <form>
+                        <input name="search"/>
+                        <button type="submit"><span class="fa fa-search"></span></button>
+                    </form>
+                </div>
+                <div class="tags-cloud">
+                    <h4>Tags cloud</h4>
+                    <ul>
+                        <li><a href="#"><span>github</span></a></li>
+                        <li><a href="#"><span>windows95</span></a></li>
+                        <li><a href="#"><span>твиттер</span></a></li>
+                        <li><a href="#"><span>дирижабль</span></a></li>
+                        <li><a href="#"><span>собеседования</span></a></li>
+                        <li><a href="#"><span>воздух</span></a></li>
+                        <li><a href="#"><span>антисобеседования</span></a></li>
+
+                        <li><a href="#"><span>будущие</span></a></li>
+
+                        <li><a href="#"><span>подлодка</span></a></li>
+
+
+                    </ul>
+                </div>
+                <div class="latest-comments">
+                    <h4>Latest comments</h4>
+                    <div class="comment-item">
+                        <img src="images/users/user_2.jpg" class="user-img" />
+                        <span class="username">Евгений Трифонов</span>
+                        <span class="comment">Минутку. А где unit test из 100500 повторений вызова функции, замером времени, 
+                            и расчётом реального количества инструкций на функцию? 
+                            Вы настолько верите IACA? Тогда вас может ждать много удивительных открытий при погружении в реальный мир.</span>
+                    </div>
+                    <div class="comment-item">
+                        <img src="images/users/user_3.jpeg" class="user-img" />
+                        <span class="username">Сергей Сахно</span>
+                        <span class="comment">Не помешала бы сводная таблица в конце статьи.</span>
+                    </div>
+
+                </div>
+            </aside>
+            <footer class="footer-section">
+                © 2018 Binary studio academy HOMETASK
+            </footer>
+        </div>
+    </body>
+</html>

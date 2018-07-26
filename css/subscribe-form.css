@@ -1,0 +1,61 @@
+
+.subscribe-form {
+ width: 100%;
+  border-radius: .5rem;
+}
+
+.subscribe-form h4 {
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.subscribe-form label {
+  text-transform: uppercase;
+  color: #adadad;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.subscribe-form input {
+  background: #fcfcfc;
+  margin-bottom: 5px;
+  border: 1px solid #aaa;
+  padding-left: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.subscribe-form input:focus {
+  opacity: .8;
+}
+
+.subscribe-form-username,
+.subscribe-form-password {
+  border-radius: 30px;
+  border: none;
+  transition: all ease .4s;
+}
+
+.subscribe-form-button {
+    margin: 5px 0 20px 0;
+    cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #73bbf1;
+  border-color: #73bbf1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  transition: all ease .4s;
+}
+
+.subscribe-form-button:hover {
+  background-color: #1d77bb;
+  border-color: #1d77bb;
+}
+
